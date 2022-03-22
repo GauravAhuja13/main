@@ -59,7 +59,7 @@ node_modules/
 # ignore components loaded via Bower
 /bower_components
 
-# ignore jekyll build directory
+# ignore jekyll build directorykok
 /_site
 
 # ignore OS generated files
