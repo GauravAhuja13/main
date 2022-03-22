@@ -7,7 +7,7 @@ import { Provider } from "react-redux"
 
 import store from "./store"
 
-const app = (
+export const Appp = (
   <Provider store={store}>
     <BrowserRouter>
       <App />
@@ -15,5 +15,5 @@ const app = (
   </Provider>
 )
 
-ReactDOM.render(app, document.getElementById("root"))
+ReactDOM.render(Appp, document.getElementById("root"))
 serviceWorker.unregister()
